@@ -8,6 +8,8 @@ import {
 } from "react-router-dom";
 
 import "./App.css";
+
+//imports for routing
 import LandingScreen from "./Pages/LandingScreen";
 import LoginPage from "./Pages/LoginPage";
 import ForgotPassword from "./Pages/ForgotPassword";
