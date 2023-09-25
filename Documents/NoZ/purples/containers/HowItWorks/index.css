@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300&display=swap');
+
+.containerHIW {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnDiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:5%;
+}
+
+.btn {
+    width: 40%;
+    background-color: rgba(255, 255, 235, 0.13);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    border-radius: 20px;
+}
+
+.star {
+    margin-right: 6%;
+}
+
+
+.btnText {
+    color: #FFFFEB;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.headingHIW {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.3;
+    text-align: center;
+    width: 85%;
+    margin: 5%;
+}
+
+.headingNormal {
+    color: #FFFFEB;
+    font-family: 'Figtree', sans-serif;
+}
+
+.headingColoured {
+    color: #F87D24;
+    font-family: 'Figtree', sans-serif;
+}
+
+.greenLogo {
+    display: none;
+}
+
+@media screen and (min-width: 600px) {
+    .cardsHIW{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .btn {
+        width: 30%;
+        padding: 1%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .btn {
+        width: 20%;
+        padding: 1%;
+    }
+    .headingHIW {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .greenLogo {
+        display: block;
+        margin-top: -100%;
+    }
+}

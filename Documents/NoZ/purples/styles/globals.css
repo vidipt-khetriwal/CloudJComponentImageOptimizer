@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"); */
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+}
+
+:root {
+  --primary-green: rgb(1, 25, 10);
+  --secondary-green: rgb(70, 195, 147);
+  --ternary: rgb(255, 255, 240);
+
+  --primary-purple: #370D7B;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    Fira Sans,
+    Droid Sans,
+    Helvetica Neue,
+    sans-serif,
+    Playfair Display;
+  /* background-color: var(--primary-green); */
+  background-color: var(--primary-purple);
+
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}

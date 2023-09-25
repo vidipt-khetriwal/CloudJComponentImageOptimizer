@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "src",
+    "jsx": "react",
+    "noImplicitAny": false,
+    "paths": {
+      "components/*": ["./components/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300&display=swap');
+
+.CardHIWContainer{
+    width: 90%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 5%;
+    padding: 5%;
+    padding-bottom: 0%;
+    position: relative;
+}
+
+.stepLine {
+    display: flex;
+}
+
+.step {
+    width: 30%;
+    background-color: rgba(1, 25, 10, 0.04);
+    padding: 2%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(1, 25, 10, 0.7);
+    font-weight: 700;
+    font-size: 14px;
+    font-family: 'Figtree', sans-serif;
+}
+
+.line {
+    width: 45%;
+    margin-top: 5%;
+    border-top: 1px solid rgba(1, 25, 10, 0.06);
+}
+
+.bigNumber{
+    width: 25%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: rgba(9, 1, 25, 0.08);
+    font-weight: 900;
+    font-size: 190px;
+    font-family: 'Figtree', sans-serif;
+    line-height: 0.7;
+    letter-spacing: 0;
+}
+
+.head {
+    display: flex;
+    margin-top: 7%;
+    color: rgba(1, 25, 10, 1);
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Figtree', sans-serif;
+}
+
+.subheadingHIW {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 90%;
+    color: rgba(1, 25, 10, 0.5);
+    font-weight: 500;
+    font-size: 14px;
+    font-family: 'Figtree', sans-serif;
+}
+
+.picContainer {
+   background-color: rgba(246, 239, 255, 1);
+   border-radius: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.picCardHIW {
+    margin: 10%;
+    margin-bottom:0%;
+}
+
+@media screen and (min-width: 750px) {
+    .CardHIWContainer {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .CardHIWContainer {
+        width: 30%;
+        margin: 1%;
+    }
+}
