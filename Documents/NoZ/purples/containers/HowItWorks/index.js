@@ -19,7 +19,7 @@ export default function HowItWorks() {
       </div>
       <div className="headingHIW">
         <span className="headingNormal">The cure for your health in </span>
-        <span className="headingColoured">3 simple steps</span>
+        <span className="headingColoured"> &nbsp;3 simple steps</span>
         <span>
           <Image className="greenLogo" src={GreenLogo} />
         </span>

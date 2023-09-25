@@ -5,67 +5,68 @@ import { StepsCard, SymptomCard } from "../components/Cards";
 import Container from "../components/Container";
 import Navbar from "../components/Navbar";
 import HowItWorks from "../containers/HowItWorks";
+import OurProposition from "../containers/OurProposition";
 
 import "../styles/index.css";
 
 import LandingPagePic from "public/images/LandingPageSec1/LandingPagePic.svg";
 
-const Symptoms = [
-  {
-    title: "Anxiety",
-    image: "https://via.placeholder.com/556x370",
-    description:
-      "Our expert team is dedicated to guiding you through the world of medicinal cannabis.",
-  },
-  {
-    title: "Arthritis",
-    image: "https://via.placeholder.com/556x370",
-    description:
-      "Our expert team is dedicated to guiding you through the world of medicinal cannabis.",
-  },
-  {
-    title: "Cancer",
-    image: "https://via.placeholder.com/556x370",
-    description:
-      "Our expert team is dedicated to guiding you through the world of medicinal cannabis.",
-  },
-  {
-    title: "Chronic Pain",
-    image: "https://via.placeholder.com/556x370",
-    description:
-      "Our expert team is dedicated to guiding you through the world of medicinal cannabis.",
-  },
-  {
-    title: "Depression",
-    image: "https://via.placeholder.com/556x370",
-    description:
-      "Our expert team is dedicated to guiding you through the world of medicinal cannabis.",
-  },
-  {
-    title: "Epilepsy",
-    image: "https://via.placeholder.com/556x370",
-    description:
-      "Our expert team is dedicated to guiding you through the world of medicinal cannabis.",
-  },
-  {
-    title: "Insomnia",
-    image: "https://via.placeholder.com/556x370",
-    description:
-      "Our expert team is dedicated to guiding you through the world of medicinal cannabis.",
-  },
-  {
-    title: "Migraines",
-    image: "https://via.placeholder.com/556x370",
-    description:
-      "Our expert team is dedicated to guiding you through the world of medicinal cannabis.",
-  },
-  {
-    title: "Nausea and Vomiting",
-    image: "https://via.placeholder.com/556x370",
-    description:
-      "Our expert team is dedicated to guiding you through the world of medicinal cannabis.",
-  },
-];
+// const Symptoms = [
+//   {
+//     title: "Anxiety",
+//     image: "https://via.placeholder.com/556x370",
+//     description:
+//       "Our expert team is dedicated to guiding you through the world of medicinal cannabis.",
+//   },
+//   {
+//     title: "Arthritis",
+//     image: "https://via.placeholder.com/556x370",
+//     description:
+//       "Our expert team is dedicated to guiding you through the world of medicinal cannabis.",
+//   },
+//   {
+//     title: "Cancer",
+//     image: "https://via.placeholder.com/556x370",
+//     description:
+//       "Our expert team is dedicated to guiding you through the world of medicinal cannabis.",
+//   },
+//   {
+//     title: "Chronic Pain",
+//     image: "https://via.placeholder.com/556x370",
+//     description:
+//       "Our expert team is dedicated to guiding you through the world of medicinal cannabis.",
+//   },
+//   {
+//     title: "Depression",
+//     image: "https://via.placeholder.com/556x370",
+//     description:
+//       "Our expert team is dedicated to guiding you through the world of medicinal cannabis.",
+//   },
+//   {
+//     title: "Epilepsy",
+//     image: "https://via.placeholder.com/556x370",
+//     description:
+//       "Our expert team is dedicated to guiding you through the world of medicinal cannabis.",
+//   },
+//   {
+//     title: "Insomnia",
+//     image: "https://via.placeholder.com/556x370",
+//     description:
+//       "Our expert team is dedicated to guiding you through the world of medicinal cannabis.",
+//   },
+//   {
+//     title: "Migraines",
+//     image: "https://via.placeholder.com/556x370",
+//     description:
+//       "Our expert team is dedicated to guiding you through the world of medicinal cannabis.",
+//   },
+//   {
+//     title: "Nausea and Vomiting",
+//     image: "https://via.placeholder.com/556x370",
+//     description:
+//       "Our expert team is dedicated to guiding you through the world of medicinal cannabis.",
+//   },
+// ];
 export default function Home() {
   return (
     <div className="mainContainer">
@@ -103,7 +104,10 @@ export default function Home() {
             />
           </div>
         </div>
+
         <HowItWorks />
+
+        <OurProposition />
       </main>
 
       {/* <main className="flex flex-col"> */}

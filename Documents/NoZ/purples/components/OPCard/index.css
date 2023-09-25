@@ -1,0 +1,28 @@
+.OPCardContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin-top: 5%;
+}
+
+.OPCardheading {
+    width: 300px;
+    text-align: center;
+    color: rgba(0, 45, 21, 1);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 5%;
+}
+
+.OPCardsubheading {
+    text-align: center;
+    color: rgba(1, 25, 10, 0.7);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.3;
+    margin: 5%;
+    width: 80%;
+}
